@@ -1113,7 +1113,7 @@ pre code {
 }.table {
     width: 100%;
     margin-bottom: 1rem;
-    color: #858796;
+    color: #212529;
 }
 .table td, .table th {
     padding: .75rem;
@@ -3578,10 +3578,9 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .breadcrumb {
     display: flex;
     flex-wrap: wrap;
-    padding: .75rem 1rem;
+    padding: .10rem 0.3rem;
     margin-bottom: 1rem;
-    list-style: none;
-    background-color: #eaecf4;
+    list-style: none;    
     border-radius: .35rem;
 }
 .breadcrumb-item+.breadcrumb-item {
@@ -8389,6 +8388,17 @@ a:focus {
     align-items: center;
     justify-content: center;
 }
+.btn-success.ring { background: #fff; color: #1cc88a;border: 2px solid #1cc88a;}
+.btn-success.ring:hover { background: #1cc88a; color: #fff;}
+.btn-primary.ring { background: #fff; color: #4e73df;border: 2px solid #4e73df; }
+.btn-primary.ring:hover { background: #4e73df; color: #fff;}
+.btn-info.ring { background: #fff; color: #36b9cc;border: 2px solid #36b9cc; }
+.btn-info.ring:hover { background: #36b9cc; color: #fff;}
+.btn-warning.ring { background: #fff; color: #f6c23e;border: 2px solid #f6c23e; }
+.btn-warning.ring:hover { background: #f6c23e; color: #fff;}
+.btn-danger.ring { background: #fff; color: #e74a3b;border: 2px solid #e74a3b; }
+.btn-danger.ring:hover { background: #e74a3b; color: #fff;}
+
 .btn-circle.btn-sm, .btn-group-sm>.btn-circle.btn {
     height: 1.8rem;
     width: 1.8rem;
